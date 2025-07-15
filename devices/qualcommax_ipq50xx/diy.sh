@@ -17,5 +17,3 @@ target/linux/qualcommax/Makefile
 
 sed -i "/ECM_INTERFACE_MAP_T_ENABLE/d"  package/qca/qca-nss-ecm/Makefile
 
-make defconfig
-sed -i "s/\(CONFIG_PACKAGE_kmod-qca.*\)=m/\1=n/g" .config
